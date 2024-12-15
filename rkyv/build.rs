@@ -2,7 +2,7 @@ use std::env;
 
 fn main() {
     let mut has_atomic32 = true;
-    let mut has_atomic64 = true;
+    let mut has_atomic64 = false;
 
     let target = env::var("TARGET").unwrap();
 
